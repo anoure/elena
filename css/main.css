@@ -237,12 +237,18 @@ footer .nav {
 /*---------------------------------FOOTER------------------------------------- */
 /*---------------------------------MEDIA-------------------------------------- */
 @media screen and (max-width: 767px) {
+  header .container a {
+    margin-bottom: 20px; }
   header .container h3:before, header .container h3:after {
     width: 20px; }
   header .container h3:before {
     margin: 0 5px 5px 0; }
   header .container h3:after {
     margin: 0 0 5px 5px; }
+  header .container .nav {
+    margin-bottom: 0; }
+    header .container .nav li {
+      display: block; }
 
   .short .container .row {
     padding-top: 40px;
@@ -302,6 +308,11 @@ footer .nav {
       footer .nav li a {
         width: 45px;
         height: 55px; } }
+/*---------------------------------MEDIA-------------------------------------- */
+/*---------------------------------MEDIA-------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .featured .container .nav li {
+    margin-right: 0; } }
 /*---------------------------------MEDIA-------------------------------------- */
 
 /*# sourceMappingURL=main.css.map */

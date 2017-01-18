@@ -269,6 +269,8 @@ footer
 @media screen and (max-width: 767px)
   header
     .container
+      a
+        margin-bottom: 20px
       h3
         &:before, &:after
           width: 20px
@@ -277,6 +279,10 @@ footer
           margin: 0 5px 5px 0
         &:after
           margin: 0 0 5px 5px
+      .nav
+        margin-bottom: 0
+        li
+          display: block
 
   .short
     .container
@@ -350,4 +356,14 @@ footer
         a
           width: 45px
           height: 55px
+/*---------------------------------MEDIA--------------------------------------*/
+
+/*---------------------------------MEDIA--------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 991px)
+  .featured
+    .container
+      .nav
+        li
+          margin-right: 0
+
 /*---------------------------------MEDIA--------------------------------------*/
